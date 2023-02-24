@@ -12,14 +12,18 @@ to generate this file without the comments in this block.
 -}
 { name = "my-project"
 , dependencies =
-  [ "console"
+  [ "arrays"
+  , "console"
   , "control"
   , "deku"
   , "effect"
   , "filterable"
   , "hyrule"
   , "maybe"
+  , "ordered-collections"
   , "prelude"
+  , "refs"
+  , "tuples"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
